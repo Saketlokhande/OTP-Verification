@@ -1,0 +1,102 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
+    sans-serif;
+  text-align: center;
+  background-color: #ff4500;
+  margin: 176px;
+  padding: 0;
+  overflow:hidden;
+  background: linear-gradient(to bottom right, #ff7f00, #ff007f);
+}
+
+.App {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 170px;
+  text-align: center;
+  min-height: 50vh;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  font: inherit;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff2a00;
+  box-shadow: 0 0 5px rgb(255, 102, 0);
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.success-message {
+  color: #00a000;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.expired-message {
+  color: #ff0000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.statement {
+  font-size: 16px;
+  margin: 10px;
+  position: relative;
+}
+
+.button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.4s;
+  font: inherit;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #ff2a00;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.click-animation {
+  transform: scale(0.95);
+}
+
